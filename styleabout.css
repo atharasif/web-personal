@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: Calibri, sans-serif;
+    background: rgb(255, 255, 255);
+    background-size: cover;
+    position: relative;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
+    transition: box-shadow 0.3s ease; /* Smooth transition for the shadow */
+}
+
+.header-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow when scrolled */
+}
+
+
+.ul-navbar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.li-navbar {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.li-navbar:hover {
+    border-bottom: 2px solid black; /* Add underline effect on hover */
+    transition: 0.1s ease;
+}
+
+.a-navbar {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.content {
+    padding-top: 120px; 
+    color: rgb(0, 0, 0); 
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+}
+
+.li-text{
+    list-style: none;
+}
+
+.text-about {
+    padding-top: 50px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.text-nama {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.text-deskripsi-english {
+    font-style: italic;
+}
+
+.li-deskripsi-about {
+    font-style: italic;
+    list-style-type: none;
+    font-family: Calibri, sans-serif;
+    font-size: 22px;
+}
+
+.li-deskripsi-about-indo {
+    list-style-type: none;
+    font-family: Calibri, sans-serif;
+    font-size: 22px;
+}
+
+.img-portofoto {
+    width: 20%; /* Adjust the width of the photo */
+    float : left;
+    margin-right: 100px;
+    border: #ffffff solid 1px;
+    border-radius: 1%;
+}
+
+.img-portologo {
+    width: 20%; /* Adjust the width of the photo */
+    float : left;
+    margin-right: 50px;
+    border: black solid 1px;
+    border-radius: 1%;
+}
+
+.wrapper {
+    margin : auto;
+    width : 90%;
+    float : center;
+    margin-bottom: 200px;
+    /* padding-bottom: 50px; */
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.p-footer {
+    margin: 0;
+    font-size: 15px;
+}

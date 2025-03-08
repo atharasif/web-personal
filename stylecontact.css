@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: Calibri, sans-serif;
+    background: rgb(255, 255, 255);
+    background-size: cover;
+    position: relative;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.header-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow when scrolled */
+}
+
+.ul-navbar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.li-navbar {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.li-navbar:hover {
+    border-bottom: 2px solid black; /* Add underline effect on hover */
+    transition: 0.1s ease;
+}
+
+.a-navbar {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.content {
+    padding-top: 60px; /* Adjust based on header height */
+    color: rgb(0, 0, 0); /* Ensure text is readable over the background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+}
+
+.li-text {
+    list-style: none;
+}
+
+.text-nama {
+    font-family: monospace;
+    font-size: 70px;
+    font-weight: 1000;
+    text-align: center;
+    margin-bottom: 40px; /* Add space below the text-nama element */
+}
+
+.text-deskripsi {
+    font-family: Calibri, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px; /* Add space below the text-deskripsi element */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 30%; /* Adjust the width of the form */
+    max-width: 500px;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #cfcfcf; /* Change the color of the placeholder text */
+    font-style: italic; /* Make the placeholder text italic */
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.p-footer {
+    margin: 0;
+    font-size: 15px;
+}
+
+.formalitas {
+    margin-top: 0;
+    font-size: 12px;
+    font-style: italic;
+    padding-left: 43%;
+}
+
+.logo{
+    width: 5%;
+    margin: 10px;
+}
+
+.medsos {
+    padding-left: 38%;
+    margin: auto;
+    width: 50%;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <link rel="stylesheet" href="styleabout.css">
+    <script>
+        window.addEventListener('scroll', function() {
+            var header = document.querySelector('.header');
+            if (window.scrollY > 0) {
+                header.classList.add('header-shadow');
+            } else {
+                header.classList.remove('header-shadow');
+            }
+        });
+    </script>
+</head>
+<body>
+    <div class="header">
+        <ul class="ul-navbar">
+            <li class="li-navbar">
+                <a href="index.html" class="a-navbar">Home</a>
+            </li>
+            <li class="li-navbar">
+                <a href="about.html" class="a-navbar">About</a>
+            </li>
+            <li class="li-navbar">
+                <a href="contact.html" class="a-navbar">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        <ul>
+            <li class="li-text">
+                <h2 class="text-about">About Me</h2>
+            </li>
+            <li class="li-text">
+                <h1 class="text-nama">Athar Asif</h1>
+            </li>
+        </ul>
+    </div>
+    <div class="wrapper">
+        <img src="portologo.jpg" alt="portofolio logo" class="img-portologo">
+        <img src="portofoto.jpg" alt="portofolio foto" class="img-portofoto">
+        <li class="li-deskripsi-about">
+            <p>a young man born in the 21st century, growing up amidst technological</p>
+            <p>advancements, and is now in search of hidden talent. have an interest</p>
+            <p>in technology, such as photography and videography, editing, design,</p>
+            <p>and programming.</p>
+        </li>
+        <li class="li-deskripsi-about-indo">
+            <p>seorang pemuda yang lahir pada abad ke 21, tumbuh di tengah kemajuan</p>   
+            <p>teknologi dan pesatnya perkembangan media sosial. memiliki minat</p>
+            <p>di bidang teknologi, seperti fotografi dan videografi, editing, desain,</p>
+            <p>dan programming.</p>
+        </li>
+    </div>
+    <div class="footer">
+        <p class="p-footer">©2025atharasif</p>
+    </div>
+</body>
+</html>
